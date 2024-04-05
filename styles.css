@@ -4,6 +4,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+background-color:RGB(31, 32, 36);
+	
   
 }
 .title {
