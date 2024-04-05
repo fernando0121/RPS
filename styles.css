@@ -4,7 +4,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-background-color:RGB(31, 32, 36);
+
 	
   
 }
@@ -22,7 +22,7 @@ background-color:RGB(31, 32, 36);
   
 }
 #playerDisplay,#computerScoreDisplay,#playerScoreDisplay,#draws{
-  color:white;
+  color:black;
 }
 #computerDisplay{
   color:white;
