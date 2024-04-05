@@ -1,0 +1,42 @@
+body{
+  padding: 25px;
+  font-family: Monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.title {
+	color: white;
+	font-size: 3.5em;
+	
+}
+#choices button{
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  font-size: 1em;
+  background-color: grey;
+  
+}
+#playerDisplay,#computerScoreDisplay,#playerScoreDisplay,#draws{
+  color:white;
+}
+#computerDisplay{
+  color:white;
+}
+#resultDisplay{
+  color:white;
+}
+
+@media only screen and (max-width 400px){
+  .title{
+    
+  }
+  #choices button{
+    
+  }
+  #playerDisplay,#computerScoreDisplay,#playerScoreDisplay,#draws{
+    
+  }
+}
